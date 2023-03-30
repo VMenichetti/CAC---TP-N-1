@@ -1,0 +1,37 @@
+:root{
+    --color-primary: rgb(53, 177, 199); 
+    --color-secondary: rgb(224, 239, 241);
+}
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    margin: 20px;
+}
+h1{
+    font-size: 50px;
+    color: var(--color-primary);
+    font-family: 'Albert Sans', sans-serif;
+}
+.contenedor{
+    /* width: 30%;
+    margin: 15px; */
+    font-size: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    color: var(--color-secondary)
+}
+img{
+    max-width: 60%;
+    height: 500px;
+    border-radius: 30px;
+}
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(229, 238, 244);
+    border-radius: 20px;    
+    font-family: 'Albert Sans', sans-serif;
+    color: var(--color-secondary)
+}
